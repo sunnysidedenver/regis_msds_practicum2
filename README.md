@@ -78,7 +78,24 @@ The data were also scaled or normalized using sklearn.preprocessing's StandardSc
 
 ## THE MODEL
 
-The final dataset has 
+A random forest classification was chosen given the simplicity and generally good predictions given the random forests superior performancy over descision trees, and often, linear regressions.
+
+The model was run twice. The first time it was run with the predictand being the number of fires. This yielded a low model accuracy < 50% and none of the features of importance outperformed a random number.
+
+In order to improve the model output the the firest were binned into 4 categories.
+
+- A few fires (1) = 0-3
+
+- Numerous fires (2) = 4-7
+
+- Widespread fires (3) = 8-11
+
+- Extreme fire acitivity (4) = 12+
+
+Rerunning the model returned an accuracy > than 90% but looking at features of importance failed to outmatch random number generation. In other words, the model was really good at guessing (since there were only 4 choices) but overall had very low skill.
+
+Additional inspection of the data showed weak relationships between the training set and the number of fires (predictand). 
+
 ## CONCLUSION
 
 ## FUTURE RESEARCH
