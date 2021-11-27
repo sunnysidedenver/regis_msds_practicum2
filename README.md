@@ -32,7 +32,7 @@ These geospatial data were collected, cleaned, processed and staged for analytic
 - 5-year percent change in barren land
 - 5-year percent change in scrub brush land
 
-*Data derived from NOAA National Center for Environmental Information Climatological data:*
+*Data derived from NOAA National Center for Environmental Information's climate data archives:*
 
 - Avgerage end-of-winter snowpack
 - Annual temperature anomalies
