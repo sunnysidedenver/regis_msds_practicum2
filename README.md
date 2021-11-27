@@ -12,7 +12,7 @@ A Jupyter Notebook (.ipynb) file is included with Python code, as well as a GIS_
 
 ## THE DATA
 
-These data were collect, cleaned, processed and staged for analytics and machine learning.
+These geospatial data were collected, cleaned, processed and staged for analytics and machine learning using ArcGIS and Python.
 
 *Data derived from the National Fire Interagency Center:*
 
