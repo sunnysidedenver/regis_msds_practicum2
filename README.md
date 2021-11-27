@@ -1,12 +1,14 @@
 # Analyzing and Predicting Wildfires in Colorado's US Forests
 
-## PURPOSE AND BACKGROUND
-The purpose of this project is to demonstrate proficiency in core data science and geographic information systems (GIS) principles and skills and the graduate school level. The project heavily uses Python, a programming language, along with select Python libraries, and ArcGIS Pro, a popular GIS software platform. 
+## PURPOSE
+The purpose of this project is to demonstrate proficiency in core data science/machine learning and geographic information systems (GIS) principles and skills and the graduate school level. The project heavily uses Python, a programming language, along with select Python libraries, and ArcGIS Pro, a popular GIS software platform. The project explores if wildfires can be predicted in US Forests in Colorado using machine learning (RandomForest classification).
 
 A Jupyter Notebook (.ipynb) file is included with Python code, as well as a GIS_SUPPLEMENT.doc file, which demonstrates some (but not all) of the steps taken to acquire and manipulate the geospatial data used in this project. In addition, numerous maps, graphs, tables and charts have been created, using both ArcGIS and Python, to best visualize and understand the data.
 
-## TOPIC
-The project explores if wildfires can be predicted in US Forests in Colorado. 
+## BACKGROUND
+Colorado technically has 9 National Forests. However, Carson National Forest lies almost entirely outside of the state, just touching southern Colorado, and has been excluded from this project. A custom built dataset was built from raw geological and meteorological data between 2016 and 2021 to inform, or train, the RandomForest model, in order to predict the number of fire in each forest for that 5-year period of record. Such a short period of record was necessary given the time constraints of this project and the amount of work required to pre-process the geospatial data (rasters) in ArcGIS.
+
+Here is a look at the number of forest
 
 ![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/fires_byforest_byyear_barplot.PNG)
 
