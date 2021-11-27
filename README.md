@@ -1,7 +1,7 @@
 # Analyzing and Predicting Wildfires in Colorado's US Forests
 
 ## PURPOSE
-The purpose of this project is to demonstrate proficiency in core data science/machine learning and geographic information systems (GIS) principles and skills and at the graduate school level. The project heavily uses Python, an open-source programming language, along with select Python libraries, and ArcGIS Pro, a ubiqitious GIS software platform. 
+The purpose of this project is to demonstrate proficiency in core data science/machine learning and geographic information systems (GIS) principles and skills at the graduate school level. The project heavily uses Python, an open-source programming language, along with select Python libraries, and ArcGIS Pro, a ubiqitious GIS software platform. 
 
 The project explores if wildfires can be predicted in US Forests in Colorado using machine learning (RandomForest classification).
 
