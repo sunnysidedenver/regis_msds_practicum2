@@ -82,7 +82,7 @@ A random forest classification was chosen given its simplicity and typically sup
 
 The model was run twice. The first time it was run with the predictand being the number of fires. This yielded a low model accuracy < 50% and none of the features of importance outperformed a random number.
 
-In order to improve the model output the the fires were binned into 4 numerical categories.
+In order to improve the model output the fires were binned into 4 numerical categories, shown below.
 
 - A few fires (1) = 0-3
 
