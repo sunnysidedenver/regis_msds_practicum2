@@ -110,9 +110,11 @@ While the model may not be ready for prime time, the data exploration alone has 
 
 ## FUTURE EFFORTS
 
-A larger data set is needed with at least 30 years of data. I believe binning the number of fires will continue to improve the model accuracy, since you are giving the model some leeway with a range of fires within that bin. In addition, more (and better) predictor variables are needed. In addition, decision makers aren't that interested in the precise number of fires, but rather, if there is going to be a little or a lot of fire activity in the upcoming season. It is highly unlikely a model like this would ever precicsely capture the number of fires anyway. There's just too much variability in the range of integers. 
+A larger data set is needed with at least 30 years of data. I believe binning the number of fires will continue to improve the model accuracy, since you are giving the model some leeway with a range of fires within that bin. Also, decision makers aren't that interested in the precise number of fires, but rather, if there is going to be a little or a lot of fire activity in the upcoming season, and how big they might get. It is highly unlikely a model like this would ever precicsely capture the number of fires anyway. There's just too much variability in the range of integers. 
 
-If this model then can outperform a random guess, with a high degree of accuracy, seperate predictions could be run for each forest.
+More (and better) predictor variables are also needed. 
+
+If this model then can outperform a random guess with a high degree of accuracy, seperate predictions could be run for each forest. Also, one could try and predict how many acres could burn in an upcoming season, in addition to the total number of fires.
 
 
 
