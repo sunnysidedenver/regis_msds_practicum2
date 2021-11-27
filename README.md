@@ -102,7 +102,7 @@ Additional inspection of the data revealed why. There were weak relationships be
 
 The project shows unique approaches to building, analayzing and exporting custom data sets from raw geospatial data in ArcGIS.
 
-The model demonstrates a capacity to try and predict forest fires given a variety of meteorological, geological and biological that has some influence on forest fires. However, the model fails to return a result that could benefit fire predictions. The model needs more data to inform itself that has a stronger relationship to the number of fires. I was suprised variables like drought, temperature and precipitation did not seem to have a stronger relationship to the frequency of fires. Binning the number of fires into four categories to be predicted instead of the number (integer) of fires improved the model results.
+The model demonstrates a capacity to try and predict forest fires given a variety of political, meteorological, geological and biological geospatial data that have some perceived influence on forest fires. However, the model fails to return a result that could benefit fire predictions. The model needs more data to inform itself that has a stronger relationship to the number of fires. I was suprised variables like drought, temperature and precipitation did not seem to have a stronger relationship to the frequency of fires. Binning the number of fires into four categories to be predicted instead of the number (integer) of fires improved the model results.
 
 While the model may not be ready for prime time, the data exploration alone has given useful insight into fire behavior in CO US forests over the last 5 years. Of note, the largest fires in Colorado history have been within the last 5 years.
 
