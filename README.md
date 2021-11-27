@@ -27,10 +27,10 @@ These geospatial data were collected, cleaned, processed and staged for analytic
 
 *Data derived from 2001 and 2019 National Land Cover Datasets:*
 
-- Percent forested land
-- 5-year percent change in forested land
-- 5-year percent change in barren land
-- 5-year percent change in scrub brush land
+- Percent forested land (2019)
+- Percent change in forested land (2001-2019)
+- Percent change in barren land (2001-2019)
+- Percent change in scrub brush land (2001-2019)
 
 *Data derived from NOAA National Center for Environmental Information's climate data archives:*
 
