@@ -16,7 +16,7 @@ Here is bar plot looking at the number of fires occurring each year in each fore
 
 And here are two maps showing a general overview of fires from 2016-2020.
 
-![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/fire_overview2.png)
+![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/fire_overview.png)
 ![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/fire_overview2.png)
 
 
