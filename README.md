@@ -94,7 +94,7 @@ In order to improve the model output the the firest were binned into 4 categorie
 
 Rerunning the model returned an accuracy > than 90% but looking at features of importance failed to outmatch random number generation. In other words, the model was really good at guessing (since there were only 4 choices) but overall had very low skill.
 
-![alt_text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/foi_mod2.png) 
+![alt_text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/foi_mod2.PNG)
 
 Additional inspection of the data showed weak relationships between the training set and the number of fires (predictand). Also, there was a large amount of multicolinearity among the variables, meaning the variables had some relation to each other, as well as the predictand. The model cannot distinguish then the proper weights each variable has on the predictand as a result.
 
