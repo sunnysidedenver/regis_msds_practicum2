@@ -10,5 +10,5 @@ Colorado technically has 9 National Forests. However, Carson National Forest lie
 
 Here is a look at the number of forest
 
-![alt text]('https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/fires_byforest_byyear_barplot.PNG')
+![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/fires_byforest_byyear_barplot.PNG)
 
