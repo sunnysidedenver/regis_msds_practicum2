@@ -10,6 +10,10 @@ A Jupyter Notebook (.ipynb) file is included with Python code, as well as a GIS_
 ## BACKGROUND
 Colorado technically has 9 National Forests. However, Carson National Forest lies almost entirely outside of the state, just touching southern Colorado, and has been excluded from this project. A custom built dataset was built from raw geological and meteorological data between 2016 and 2021 to inform, or train, the RandomForest model, in order to predict the number of fires in each forest for that 5-year period of record. Such a short period of record was necessary given the time constraints of this project and the amount of work required to pre-process the geospatial data (rasters) in ArcGIS. Ideally, a 30 year record, corresponding to meteorological normal data, would have been used to inform the model. 
 
+## THE DATA
+
+## ANALYSIS
+
 Here is bar plot looking at the number of fires occurring each year in each forest.
 
 ![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/fires_byforest_byyear_barplot.PNG)
@@ -31,6 +35,12 @@ The percent of each forest that has burned can be compared this way, too.
 Finally, looking at all fires, all forests, summed up across the 5-year period. Again, the Arapaho and Pike Forests have had the most fires.
 
 ![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/totalfires_byforest_plot.PNG)
+
+## THE MODEL
+
+## CONCLUSION
+
+## FUTURE RESEARCH
 
 
 
