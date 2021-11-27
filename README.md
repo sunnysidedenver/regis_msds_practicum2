@@ -12,13 +12,13 @@ A Jupyter Notebook (.ipynb) file is included with Python code, as well as a GIS_
 
 ## THE DATA
 
-These geospatial data were collected, cleaned, processed and staged for analytics and machine learning using ArcGIS and Python.
+These geospatial data were collected, cleaned, processed and staged for analytics and machine learning using ArcGIS and Python. The resulting data set is unique. To my knowledge, no such data set exists for the exact boundaries of each forest.
 
 *Data derived from the National Fire Interagency Center:*
 
-- Fire Freqeuncy
-- Fire Location
-- Fire Date (Year)
+- Fire freqeuncy
+- Fire location
+- Fire date (year)
 
 *Data derived from 1/3 arc-length USGS Digital Elevation Models:*
 
@@ -27,22 +27,24 @@ These geospatial data were collected, cleaned, processed and staged for analytic
 
 *Data derived from 2001 and 2019 National Land Cover Datasets:*
 
-- Percent Forested Land
-- 5-year percent Change in Forested Land
-- 5-year percent Change in Barren Land
-- 5-year percent Change in Scrub Brush Land
+- Percent forested land
+- 5-year percent change in forested land
+- 5-year percent change in barren land
+- 5-year percent change in scrub brush land
 
 *Data derived from NOAA National Center for Environmental Information Climatological data:*
 
 - Avgerage end-of-winter snowpack
-- Annual temperature Anomalies
-- Annual precipitation Anomalies
+- Annual temperature anomalies
+- Annual precipitation anomalies
 
 *Data derived from the US Drought Monitor:*
 
 - Annual max drought categories
 
 ## ANALYSIS
+
+Analysis starts with exploratory data analysis in order to understand fire behavior in each forest, year-over-year.
 
 Here is bar plot looking at the number of fires occurring each year in each forest.
 
