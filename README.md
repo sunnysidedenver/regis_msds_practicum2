@@ -1,14 +1,14 @@
 # Analyzing and Predicting Wildfires in Colorado's US Forests
 
 ## PURPOSE
-The purpose of this project is to demonstrate a high level of proficiency at the graduate school level in core data science applications using Python (e.g., data collection and prep, statistics, analytics, exploratory data analysis and machine learning). In addition, this project demonstrates advanced geographic information systems (GIS) techniques to create custom data and visualizations, using ArcGIS Pro.
+The purpose of this project is to demonstrate a high level of proficiency at the graduate school level in core data science applications using Python (e.g., data collection and prep, statistics, analytics, exploratory data analysis and machine learning). In addition, this project demonstrates advanced geographic information systems (GIS) techniques to create custom data sets and visualizations, using ArcGIS Pro.
 
 The project explores if wildfires can be predicted in US Forests in Colorado using machine learning (RandomForest classification).
 
 ## BACKGROUND
 Colorado technically has 9 National Forests. However, Carson National Forest lies almost entirely outside of the state, just touching southern Colorado, and has been excluded from this project. A custom built dataset was built from raw geological, biological and meteorological data between 2016 and 2021 to inform, or train, the RandomForest Calssifier model, in order to predict the number of fires in each forest for that 5-year period of record. Such a short period of record was necessary given the time constraints of this project and the amount of work required to pre-process the geospatial data (rasters) in ArcGIS. Ideally, a 30 year record, corresponding to meteorological "climate normal data", would have been used to inform the model. 
 
-A Jupyter Notebook (.ipynb) file is included with Python code, as well as a GIS_SUPPLEMENT.doc file, which demonstrates some (but not all) of the steps taken to acquire and manipulate the geospatial data used in this project. In addition, numerous maps, graphs, tables and charts have been created, using both ArcGIS and Python, to best visualize and understand the data.
+A Jupyter Notebook (.ipynb) file is included with Python code, as well as a GIS_SUPPLEMENT.doc file, which shows some (but not all) of the steps taken to acquire and manipulate the geospatial data used in this project. In addition, numerous maps, graphs, tables and charts have been created, using both ArcGIS and Python, to best visualize and understand the data.
 
 ## THE DATA
 
