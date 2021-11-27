@@ -78,7 +78,7 @@ The data were also scaled or normalized using sklearn.preprocessing's StandardSc
 
 ## THE MODEL
 
-A random forest classification was chosen given the simplicity and generally good predictions given the random forests superior performancy over descision trees, and often, linear regressions.
+A random forest classification was chosen given its simplicity and typically good predictions given the random forests superior performancy other machine learning algorithms, like descision trees and linear regressions.
 
 The model was run twice. The first time it was run with the predictand being the number of fires. This yielded a low model accuracy < 50% and none of the features of importance outperformed a random number.
 
@@ -94,7 +94,7 @@ In order to improve the model output the the firest were binned into 4 categorie
 
 Rerunning the model returned an accuracy > than 90% but looking at features of importance failed to outmatch random number generation. In other words, the model was really good at guessing (since there were only 4 choices) but overall had very low skill.
 
-Additional inspection of the data showed weak relationships between the training set and the number of fires (predictand). 
+Additional inspection of the data showed weak relationships between the training set and the number of fires (predictand). Also, there was a large amount of multicolinearity among the variables, meaning the variables had some relation to eachother, as well as the predictand. The model cannot distinguish then the proper weights each variable has on the predictand as a result.
 
 ## CONCLUSION
 
