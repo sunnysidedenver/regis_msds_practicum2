@@ -78,7 +78,7 @@ The data were also scaled or normalized using sklearn.preprocessing's StandardSc
 
 ## THE MODEL
 
-A random forest classification was chosen given its simplicity and typically good predictions given the random forests superior performancy other machine learning algorithms, like descision trees and linear regressions.
+A random forest classification was chosen given its simplicity and typically superior performance other machine learning algorithms, like descision trees and linear regressions.
 
 The model was run twice. The first time it was run with the predictand being the number of fires. This yielded a low model accuracy < 50% and none of the features of importance outperformed a random number.
 
