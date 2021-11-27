@@ -14,3 +14,5 @@ Here is bar plot looking at the number of fires occurring each year in each fore
 
 ![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/fires_byforest_byyear_barplot.PNG)
 
+
+
