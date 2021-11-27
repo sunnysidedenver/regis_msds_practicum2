@@ -32,6 +32,8 @@ Finally, looking at all fires, all forests, summed up across the 5-year period.
 
 ![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/totalfires_byforest_plot.png)
 
+he
+
 
 
 
