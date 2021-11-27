@@ -14,31 +14,31 @@ A Jupyter Notebook (.ipynb) file is included with Python code, as well as a GIS_
 
 These data were collect, cleaned, processed and staged for analytics and machine learning.
 
-**Data derived from the National Fire Interagency Center:
+*Data derived from the National Fire Interagency Center:
 
 - Fire Freqeuncy
 - Fire Location
 - Fire Date (Year)
 
-**Data derived from 1/3 arc-length USGS Digital Elevation Models:
+*Data derived from 1/3 arc-length USGS Digital Elevation Models:
 
 - Max, min, mean elevation for each forest
 - Max, mean slope
 
-**Data derived from 2001 and 2019 National Land Cover Datasets:
+*Data derived from 2001 and 2019 National Land Cover Datasets:
 
 - Percent Forested Land
 - 5-year percent Change in Forested Land
 - 5-year percent Change in Barren Land
 - 5-year percent Change in Scrub Brush Land
 
-**Data derived from NOAA National Center for Environmental Information Climatological data:
+*Data derived from NOAA National Center for Environmental Information Climatological data:
 
 - Avgerage end-of-winter snowpack
 - Annual temperature Anomalies
 - Annual precipitation Anomalies
 
-**Data derived from the US Drought Monitor:
+*Data derived from the US Drought Monitor:
 
 - Annual max drought categories
 
