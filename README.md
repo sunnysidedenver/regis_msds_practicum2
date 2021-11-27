@@ -46,6 +46,8 @@ These geospatial data were collected, cleaned, processed and staged for analytic
 
 Analysis starts with exploratory data analysis in order to understand fire behavior in each forest, year-over-year.
 
+*Visuals*
+
 Here is bar plot looking at the number of fires occurring each year in each forest.
 
 ![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/fires_byforest_byyear_barplot.PNG)
@@ -68,8 +70,15 @@ Finally, looking at all fires, all forests, summed up across the 5-year period. 
 
 ![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/totalfires_byforest_plot.PNG)
 
+*Building the master dataframe for machine learning*
+
+The final data frame has all 8 forests broken down by year (2016-2020) for a total of 40 input rows into the model. Again, yes, this is a small sample, but given the large number of training attributes, it remained possible they might offset any model degradation from a small sample size. 
+
+The data were also scaled or normalized using sklearn.preprocessing's StandardScaler method in Python. 
+
 ## THE MODEL
 
+The final dataset has 
 ## CONCLUSION
 
 ## FUTURE RESEARCH
