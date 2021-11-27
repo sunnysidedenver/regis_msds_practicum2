@@ -8,5 +8,5 @@ A Jupyter Notebook (.ipynb) file is included with Python code, as well as a GIS_
 ## TOPIC
 The project explores if wildfires can be predicted in US Forests in Colorado. 
 
-![alt text](https://github.com/sunnysidedenver/regis_msds_practicum1/blob/main/denver_allcrimes.png?raw=true)
+![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/fires_byforest_byyear_barplot.PNG)
 
