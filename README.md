@@ -24,11 +24,11 @@ This second map shows the total acreage burned in each forest, compared to the t
 
 ![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/fire_overview2.png)
 
-This percent of each forest can be visualized another way.
+The percent of each forest that has burned can be compared this way, too.
  
 ![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/per_burned.png)
 
-Finally, looking at all fires, all forests, summed up across the 5-year period. 
+Finally, looking at all fires, all forests, summed up across the 5-year period. Again, the Arapaho and Pike Forests have had the most fires.
 
 ![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/totalfires_byforest_plot.PNG)
 
