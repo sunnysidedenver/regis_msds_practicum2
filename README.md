@@ -16,7 +16,12 @@ Here is bar plot looking at the number of fires occurring each year in each fore
 
 And here are two maps showing a general overview of fires from 2016-2020.
 
+This first map shows the Arapaho and Roosevelt and Pike and San Isabel National Forest have had the most fires and represent the largest percentage of all fires, in all forests.
+
 ![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/fire_overview.png)
+
+This second map shows the total acreage burned in each forest, compared to the total acreage of each forest. Many of the forests have suffered significant loss.
+
 ![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/fire_overview2.png)
 
 
