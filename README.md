@@ -24,6 +24,10 @@ This second map shows the total acreage burned in each forest, compared to the t
 
 ![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/fire_overview2.png)
 
+This percent of each forest can be visualized another way.
+ 
+![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/per_burned.png)
+
 
 
 
