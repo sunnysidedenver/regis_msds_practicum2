@@ -6,11 +6,41 @@ The purpose of this project is to demonstrate proficiency in core data science/m
 The project explores if wildfires can be predicted in US Forests in Colorado using machine learning (RandomForest classification).
 
 ## BACKGROUND
-Colorado technically has 9 National Forests. However, Carson National Forest lies almost entirely outside of the state, just touching southern Colorado, and has been excluded from this project. A custom built dataset was built from raw geological and meteorological data between 2016 and 2021 to inform, or train, the RandomForest model, in order to predict the number of fires in each forest for that 5-year period of record. Such a short period of record was necessary given the time constraints of this project and the amount of work required to pre-process the geospatial data (rasters) in ArcGIS. Ideally, a 30 year record, corresponding to meteorological normal data, would have been used to inform the model. 
+Colorado technically has 9 National Forests. However, Carson National Forest lies almost entirely outside of the state, just touching southern Colorado, and has been excluded from this project. A custom built dataset was built from raw geological and meteorological data between 2016 and 2021 to inform, or train, the RandomForest model, in order to predict the number of fires in each forest for that 5-year period of record. Such a short period of record was necessary given the time constraints of this project and the amount of work required to pre-process the geospatial data (rasters) in ArcGIS. Ideally, a 30 year record, corresponding to meteorological "climate normal data", would have been used to inform the model. 
 
 A Jupyter Notebook (.ipynb) file is included with Python code, as well as a GIS_SUPPLEMENT.doc file, which demonstrates some (but not all) of the steps taken to acquire and manipulate the geospatial data used in this project. In addition, numerous maps, graphs, tables and charts have been created, using both ArcGIS and Python, to best visualize and understand the data.
 
 ## THE DATA
+
+These data were collect, cleaned, processed and staged for analytics and machine learning.
+
+Data derived from the National Fire Interagency Center:
+
+Fire Freqeuncy
+Fire Location
+Fire Date (Year)
+
+Data derived from 1/3 arc-length USGS Digital Elevation Models:
+
+Max, min, mean elevation for each forest
+Max, mean slope
+
+Data derived from 2001 and 2019 National Land Cover Datasets:
+
+Percent Forest
+5-year percent Change in Forested Land
+5-year percent Change in Barren Land
+5-year percent Change in Scrub Brush Land
+
+Data derived from NOAA National Center for Environmental Information Climatological data:
+
+Avgerage end-of-winter snowpack
+Annual temperature Anomalies
+Annual precipitation Anomalies
+
+Data derived from the US Drought Monitor:
+
+Annual max drought categories
 
 ## ANALYSIS
 
