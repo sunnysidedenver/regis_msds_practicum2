@@ -74,7 +74,7 @@ Finally, looking at all fires, all forests, summed up across the 5-year period. 
 
 The final data frame has all 8 forests broken down by year (2016-2020) for a total of 40 input rows into the model. Again, yes, this is a small sample, but given the large number of training attributes, it remained possible they might offset any model degradation from a small sample size. 
 
-The data were also scaled or normalized using sklearn.preprocessing's StandardScaler method in Python. 
+The data were also scaled or normalized using sklearn.preprocessing's StandardScaler method in Python, then split into test and training datasets.
 
 ## THE MODEL
 
@@ -98,8 +98,17 @@ Additional inspection of the data showed weak relationships between the training
 
 ## CONCLUSION
 
-## FUTURE RESEARCH
+The model demonstrates a capacity to try and predict forest fires given a breadth of meteorological, geological and biological data. However, the model fails to return a result that could benefit fire predictions. The model needs more data to inform itself that has a stronger relationship to the number of fires. I was suprised variables like drought, temperature and precipitation did not seem to have a stronger relationship to the frequency of fires. Binning the number of fires into four categories to be predicted instead of the number (integer) of fires improved the model results.
 
+While the model may not be ready for priem time, the data exploration has given useful insight into fire behavior in CO US forests over the last 5 years. The largest fires in Colorado history have been within the last 5 years.
+
+![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/largest_fires.png)
+
+## FUTURE EFFORTS
+
+A larger data set is needed with at least 30 years of data. I believe binning the number of fires will continue to improve the model accuracy, since you are giving the model some leeway with a range of fires within that bin. In addition, more (and better) predictor variables are needed. 
+
+If this model then can outperform a random guess, with a high degree of accuracy, seperate predictions could be run for each forest.
 
 
 
