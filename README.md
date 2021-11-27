@@ -82,7 +82,7 @@ A random forest classification was chosen given its simplicity and typically sup
 
 The model was run twice. The first time it was run with the predictand being the number of fires. This yielded a low model accuracy < 50% and none of the features of importance outperformed a random number.
 
-In order to improve the model output the the firest were binned into 4 categories.
+In order to improve the model output the the fires were binned into 4 numerical categories.
 
 - A few fires (1) = 0-3
 
@@ -92,23 +92,25 @@ In order to improve the model output the the firest were binned into 4 categorie
 
 - Extreme fire acitivity (4) = 12+
 
-Rerunning the model returned an accuracy > than 90% but looking at features of importance failed to outmatch random number generation. In other words, the model was really good at guessing (since there were only 4 choices) but overall had very low skill.
+Rerunning the model returned an accuracy > than 90% but looking at features of importance failed to outmatch random number generation. In other words, the model was really good at guessing (since there were only 4 choices now) but overall still had very low skill.
 
 ![alt_text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/foi_mod2.PNG)
 
-Additional inspection of the data showed weak relationships between the training set and the number of fires (predictand). Also, there was a large amount of multicolinearity among the variables, meaning the variables had some relation to each other, as well as the predictand. The model cannot distinguish then the proper weights each variable has on the predictand as a result.
+Additional inspection of the data revealed why. There were weak relationships between the training variables and the number of fires (predictand). Also, there was a large amount of multicolinearity among the variables, meaning the variables had some relation to each other, as well as the predictand. As a result, the model cannot distinguish the proper weights each variable has on the predictand.
 
 ## CONCLUSION
 
-The model demonstrates a capacity to try and predict forest fires given a breadth of meteorological, geological and biological data. However, the model fails to return a result that could benefit fire predictions. The model needs more data to inform itself that has a stronger relationship to the number of fires. I was suprised variables like drought, temperature and precipitation did not seem to have a stronger relationship to the frequency of fires. Binning the number of fires into four categories to be predicted instead of the number (integer) of fires improved the model results.
+The project shows unique approaches to building, analayzing and exporting custom data sets from raw geospatial data in ArcGIS.
 
-While the model may not be ready for priem time, the data exploration has given useful insight into fire behavior in CO US forests over the last 5 years. The largest fires in Colorado history have been within the last 5 years.
+The model demonstrates a capacity to try and predict forest fires given a variety of meteorological, geological and biological that has some influence on forest fires. However, the model fails to return a result that could benefit fire predictions. The model needs more data to inform itself that has a stronger relationship to the number of fires. I was suprised variables like drought, temperature and precipitation did not seem to have a stronger relationship to the frequency of fires. Binning the number of fires into four categories to be predicted instead of the number (integer) of fires improved the model results.
+
+While the model may not be ready for prime time, the data exploration alone has given useful insight into fire behavior in CO US forests over the last 5 years. Of note, the largest fires in Colorado history have been within the last 5 years.
 
 ![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/largest_fires.png)
 
 ## FUTURE EFFORTS
 
-A larger data set is needed with at least 30 years of data. I believe binning the number of fires will continue to improve the model accuracy, since you are giving the model some leeway with a range of fires within that bin. In addition, more (and better) predictor variables are needed. 
+A larger data set is needed with at least 30 years of data. I believe binning the number of fires will continue to improve the model accuracy, since you are giving the model some leeway with a range of fires within that bin. In addition, more (and better) predictor variables are needed. In addition, decision makers aren't that interested in the precise number of fires, but rather, if there is going to be a little or a lot of fire activity in the upcoming season. It is highly unlikely a model like this would ever precicsely capture the number of fires anyway. There's just too much variability in the range of integers. 
 
 If this model then can outperform a random guess, with a high degree of accuracy, seperate predictions could be run for each forest.
 
