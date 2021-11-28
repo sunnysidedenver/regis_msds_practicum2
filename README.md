@@ -100,6 +100,8 @@ Rerunning the model returned an accuracy > than 90% but looking at features of i
 
 Additional inspection of the data revealed why. There were weak relationships between the training variables and the number of fires (predictand). Also, there was a large amount of multicollinearity among the variables, meaning the variables had some relation to each other, as well as the predictand. As a result, the model could not distinguish the proper weights each variable has on the predictand.
 
+Really the model output should be binary and a logistic regression would be more appropriate, where 0 = "No fire" and 1 = "Fire". However, running my data through that model wouldn’t make a whole lot of sense since there were fires every year from 2016-2020 and my data have been stagged annually. So the best I can predict is yes or no a fire is likely in a given year, forests aside, which isn't very useful information in my opinion. A binary prediction could have been possible if my data were on a daily or weekly timescale.
+
 ## CONCLUSION
 
 The project shows unique approaches to building, analayzing and exporting custom data sets from raw geospatial data in ArcGIS.
