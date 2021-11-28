@@ -96,7 +96,7 @@ Rerunning the model returned an accuracy > than 90% but looking at features of i
 
 ![alt_text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/foi_mod2.PNG)
 
-Additional inspection of the data revealed why. There were weak relationships between the training variables and the number of fires (predictand). Also, there was a large amount of multicolinearity among the variables, meaning the variables had some relation to each other, as well as the predictand. As a result, the model cannot distinguish the proper weights each variable has on the predictand.
+Additional inspection of the data revealed why. There were weak relationships between the training variables and the number of fires (predictand). Also, there was a large amount of multicollinearity among the variables, meaning the variables had some relation to each other, as well as the predictand. As a result, the model could not distinguish the proper weights each variable has on the predictand.
 
 ## CONCLUSION
 
