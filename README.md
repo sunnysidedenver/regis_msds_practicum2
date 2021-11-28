@@ -60,7 +60,7 @@ This first map shows the Arapaho and Roosevelt and Pike and San Isabel National 
 
 ![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/fire_overview.png)
 
-This second map shows the total acreage burned in each forest, compared to the total acreage of each forest. Many of the forests have suffered significant loss.
+This second map shows the total acreage burned in each forest, compared to the total acreage of each forest. Many of the forests have suffered significant loss. Note: The number of fires has been exaggerated/enlarged on the map for display purposes.
 
 ![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/fire_overview2.png)
 
