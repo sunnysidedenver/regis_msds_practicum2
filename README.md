@@ -8,8 +8,6 @@ The project explores if wildfires can be predicted in US Forests in Colorado usi
 ## BACKGROUND
 Colorado technically has 9 National Forests. However, Carson National Forest lies almost entirely outside of the state, just touching southern Colorado, and has been excluded from this project. A custom dataset was built from raw political, geological, biological and meteorological [geospatial]data between 2016 and 2021 to inform, or train, the RandomForest Calssifier model, in order to predict the number of fires in each forest for that 5-year period of record. Such a short period of record was necessary given the time constraints of this project and the amount of work required to collect and process hundreds of geospatial data (e.g., rasters) files in ArcGIS. Ideally, a 30 year record, corresponding to meteorological "climate normals", would have been used to inform the model. 
 
-![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/forests.png) 
- 
 A Jupyter Notebook (.ipynb) file is included with Python code, as well as a GIS_SUPPLEMENT.doc file, which shows some (but not all) of the steps taken to acquire and manipulate the geospatial data used in this project. In addition, numerous maps, graphs, tables and charts have been created, using both ArcGIS and Python, to best visualize and understand the data.
 
 ## THE DATA
