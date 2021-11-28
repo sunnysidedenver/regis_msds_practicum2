@@ -119,7 +119,7 @@ I believe a larger data set is needed with at least 30 years of data. I think bi
 
 If this model then can outperform a random guess with a high degree of accuracy, seperate predictions could be run for each forest. Also, one could try and predict how many acres could burn in an upcoming season, in addition to the total number of fires.
 
-Or daily weekly or monthly meteorological data can be collected and processed to train a logistic regression model to determine if a fire is likley in a specific forest over a determined period of time.
+Or daily, weekly or perhaps monthly meteorological data could be collected and processed to train a logistic regression model to determine if a fire is likley in a specific forest over a determined period of time. Compiling the data on this timescale will ensure a more robust sample size.
 
 
 
