@@ -15,6 +15,8 @@ Fires have steadily been on the rise in Colorado.
 This project will focus on fires from 2016 to 2020 in Colorado's US Forests only.
 
 ![Colorado Forests](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/forests_overview.png)
+![Number of fires by forest](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/fires_byforest_plot.png)
+
 
 A Jupyter Notebook (.ipynb) file is included with Python code, as well as a GIS_SUPPLEMENT.doc file, which shows some (but not all) of the steps taken to acquire and manipulate the geospatial data used in this project. In addition, numerous maps, graphs, tables and charts have been created, using both ArcGIS and Python, to best visualize and understand the data.
 
