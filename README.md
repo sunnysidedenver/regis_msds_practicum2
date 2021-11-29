@@ -1,5 +1,7 @@
 # Analyzing and Predicting Wildfires in Colorado's US Forests
 
+![Cover](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/cover.PNG)
+
 ## PURPOSE
 The purpose of this project is to demonstrate a high level of proficiency at the graduate school level in core data science applications using Python (e.g., data collection and prep, statistics, analytics, exploratory data analysis and machine learning). In addition, this project demonstrates advanced geographic information systems (GIS) techniques to create custom data sets and visualizations, using ArcGIS Pro.
 
