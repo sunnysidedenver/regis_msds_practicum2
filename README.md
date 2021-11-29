@@ -3,9 +3,9 @@
 ![Cover](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/cover.PNG)
 
 ## PURPOSE
-The purpose of this project is to demonstrate a high level of proficiency at the graduate school level in core data science applications using Python (e.g., data collection and prep, statistics, analytics, exploratory data analysis and machine learning). In addition, this project demonstrates advanced geographic information systems (GIS) techniques to create custom data sets and visualizations, using ArcGIS Pro.
+The purpose of this project is to demonstrate a high level of proficiency at the graduate school level in core data science and GIS principles and applications using Python and ArcGIS Pro.
 
-The project explores if wildfires can be predicted in US Forests in Colorado using machine learning (RandomForest classification).
+The project explores if wildfires can be predicted in US Forests in Colorado using a RandomForest classifier.
 
 ## BACKGROUND
 Colorado technically has 9 National Forests. However, Carson National Forest lies almost entirely outside of the state, just touching southern Colorado, and has been excluded from this project. A custom dataset was built from raw political, geological, biological and meteorological [geospatial]data between 2016 and 2021 to inform, or train, the RandomForest Calssifier model, in order to predict the number of fires in each forest for that 5-year period of record. Such a short period of record was necessary given the time constraints of this project and the amount of work required to collect and process hundreds of geospatial data (e.g., rasters) files in ArcGIS. Ideally, a 30 year record, corresponding to meteorological "climate normals", would have been used to inform the model. 
