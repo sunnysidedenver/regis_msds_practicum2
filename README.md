@@ -84,10 +84,6 @@ The percent of each forest that has burned can be compared this way, too.
  
 ![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/per_burned.png)
 
-Finally, looking at all fires, all forests, summed up across the 5-year period. Again, the Arapaho and Pike Forests have had the most fires.
-
-![alt text](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/totalfires_byforest_plot.PNG)
-
 *Building the master dataframe for machine learning*
 
 The final data frame has all 8 forests broken down by year (2016-2020) for a total of 40 input rows into the model. Again, yes, this is a small sample, but given the large number of training attributes, it remained possible they might offset any model degradation from a small sample size. 
