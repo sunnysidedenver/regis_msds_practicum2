@@ -23,6 +23,7 @@ This project will focus on fires from 2016 to 2020 in Colorado's US Forests only
 Here's a final look at the number of fires binned by years across all 8 forests.
 
 ![All fires, All Years (Number)](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/allfires_num_byyear.PNG)
+
 ![All fires, All Years (Total Acres)](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/allfires_acres_byyear.PNG)
 
 
