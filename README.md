@@ -96,9 +96,9 @@ The data were also scaled or normalized using sklearn.preprocessing's StandardSc
 
 A random forest regression and classifier were chosen given their simplicity and typically superior performance other machine learning algorithms, like descision trees and linear regressions.
 
-The model was run twice. The first time it was run with the predictand being the number of fires. This yielded a very high RMSE.
+The model was run twice. The first time it was run with the predictand being the number of fires. This yielded a very high mean absolute error, which can be seen in the first plot below.
 
-So, in order to improve the model output I binned the number of into 4 numerical categories, shown below. Then I ran  a random forest classifier.
+So, in order to improve the model output I binned the number of into 4 numerical categories, also shown below. Then I ran a random forest classifier.
 
 - A few fires (1) = 0-3
 
