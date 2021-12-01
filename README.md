@@ -94,24 +94,13 @@ The data were also scaled or normalized using sklearn.preprocessing's StandardSc
 
 ## THE MODEL
 
-A random forest regression and classifier were chosen given their simplicity and typically superior performance other machine learning algorithms, like descision trees and linear regressions.
+A random forest classifier was chosen given its simplicity and typically superior performance other machine learning algorithms, like descision trees and linear regressions.
 
-The model was run twice. The first time it was run with the predictand being the number of fires. This yielded a very high mean absolute error, which can be seen in the first plot below.
-
-So, in order to improve the model output I binned the number of into 4 numerical categories, also shown below. Then I ran a random forest classifier.
-
-- A few fires (1) = 0-3
-
-- Numerous fires (2) = 4-7
-
-- Widespread fires (3) = 8-11
-
-- Extreme fire acitivity (4) = 12+
-
-Rerunning the model this way returned an accuracy > than 40% but looking at features of importance failed to outmatch random number generation. In other words, the model was really good at guessing (since there were only 4 choices now) but overall still had very low skill.
+The model was run twice. The first time it was run with the predictand being the number of fires. This yielded a low accuracy. So, in order to improve the model output I binned the number of fires into 4 numerical categories. Rerunning the model this way returned an accuracy of 50% but looking at features of importance still failed to outmatch random number generation. In other words, the model was really good at guessing (since there were only 4 choices now) but overall still had very low skill.
 
 ![Model results](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/model_plot4.PNG)
 
+Finally, a third model was run, this time a random forest regression. The mean absolute error was very high in this case since really the number of fires should be treated as categories. 
 
 Additional inspection of the data revealed why. There were weak relationships between the training variables and the number of fires (predictand). I think the relationships were so weak because yes, these variables inform whether a fire is likely, but not necessarily the frequency of fires each year. Sure, drier and warmer years, with less winter snowpack, can produce more fires, but the relationship is much more ambiguous than if I was just trying to predict a fire, yes or no, based on those same variables. So I think trying to predict the number of fires for the period of record I chose was doomed right out of the gate. Also, there was a large amount of multicollinearity among the variables, meaning the variables had some relation to each other, as well as the predictand. As a result, the model could not distinguish the proper weights each variable has on the predictand.
 
