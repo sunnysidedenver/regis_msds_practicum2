@@ -96,7 +96,7 @@ The data were also scaled or normalized using sklearn.preprocessing's StandardSc
 
 A random forest classifier was chosen given its simplicity and typically superior performance other machine learning algorithms, like descision trees and linear regressions.
 
-The model was run twice. The first time it was run with the predictand being the number of fires. This yielded a low accuracy. So, in order to improve the model output I binned the number of fires into 4 numerical categories. Rerunning the model this way returned an accuracy of 50% but looking at features of importance still failed to outmatch random number generation. In other words, the model was really good at guessing (since there were only 4 choices now) but overall still had very low skill.
+The classifier was run twice. The first time it was run with the predictand being the number of fires. This yielded a low accuracy. So, in order to improve the model output I binned the number of fires into 4 numerical categories. Rerunning the model this way returned an accuracy of 50% but looking at features of importance still failed to outmatch random number generation. In other words, the model was really good at guessing (since there were only 4 choices now) but overall still had very low skill.
 
 ![Model results](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/model_plot4.PNG)
 
