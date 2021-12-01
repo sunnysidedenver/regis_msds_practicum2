@@ -110,13 +110,13 @@ So, in order to improve the model output I binned the number of into 4 numerical
 
 Rerunning the model this way returned an accuracy > than 40% but looking at features of importance failed to outmatch random number generation. In other words, the model was really good at guessing (since there were only 4 choices now) but overall still had very low skill.
 
-![Model results](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/model_plot3.PNG)
+![Model results](https://github.com/sunnysidedenver/regis_msds_practicum2/blob/main/model_plot4.PNG)
 
 
 Additional inspection of the data revealed why. There were weak relationships between the training variables and the number of fires (predictand). I think the relationships were so weak because yes, these variables inform whether a fire is likely, but not necessarily the frequency of fires each year. Sure, drier and warmer years, with less winter snowpack, can produce more fires, but the relationship is much more ambiguous than if I was just trying to predict a fire, yes or no, based on those same variables. So I think trying to predict the number of fires for the period of record I chose was doomed right out of the gate. Also, there was a large amount of multicollinearity among the variables, meaning the variables had some relation to each other, as well as the predictand. As a result, the model could not distinguish the proper weights each variable has on the predictand.
 
 
-## CONCLUSION
+## CONCLUSION 
 
 The project shows unique approaches to building, analayzing and exporting custom data sets from raw geospatial data in ArcGIS.
 
